@@ -1,0 +1,116 @@
+{
+    "month": "October 2021",
+    "days": [
+        {
+            "date": "2021-10-25",
+            "label": "Mon",
+            "times": [
+                "10:00",
+                "11:00",
+                "12:00"
+            ]
+        },
+        {
+            "date": "2021-10-26",
+            "label": "Tues",
+            "times": [
+                "08:00",
+                "09:00",
+                "10:00"
+            ],
+            "current": "09:00",
+            "appointments": [
+                {
+                    "title": "Dentist",
+                    "icon": "tooth",
+                    "time": "09:00-11:00",
+                    "doctor": "Dr. Cameron Williamson"
+                },
+                {
+                    "title": "Physiotherapy Appointment",
+                    "icon": "biceps",
+                    "time": "11:00-12:00",
+                    "doctor": "Dr. Kevin Djones"
+                }
+            ]
+        },
+        {
+            "date": "2021-10-27",
+            "label": "Wed",
+            "times": [
+                "12:00",
+                "---",
+                "13:00"
+            ]
+        },
+        {
+            "date": "2021-10-28",
+            "label": "Thurs",
+            "times": [
+                "10:00",
+                "11:00",
+                "---"
+            ],
+            "later": [
+                "11:00"
+            ],
+            "appointments": [
+                {
+                    "title": "Health checkup complete",
+                    "icon": "syringe",
+                    "time": "11:00 AM"
+                },
+                {
+                    "title": "Ophthalmologist",
+                    "icon": "eye",
+                    "time": "14:00 PM"
+                }
+            ]
+        },
+        {
+            "date": "2021-10-29",
+            "label": "Fri",
+            "times": [
+                "---",
+                "14:00",
+                "16:00"
+            ]
+        },
+        {
+            "date": "2021-10-30",
+            "label": "Sat",
+            "times": [
+                "12:00",
+                "14:00",
+                "15:00"
+            ],
+            "later": [
+                "12:00"
+            ],
+            "appointments": [
+                {
+                    "title": "Cardiologist",
+                    "icon": "heart",
+                    "time": "12:00 AM"
+                },
+                {
+                    "title": "Neurologist",
+                    "icon": "doctor",
+                    "time": "16:00 PM"
+                }
+            ]
+        },
+        {
+            "date": "2021-10-31",
+            "label": "Sun",
+            "times": [
+                "09:00",
+                "10:00",
+                "11:00"
+            ],
+            "later": [
+                "09:00"
+            ]
+        }
+    ]
+}

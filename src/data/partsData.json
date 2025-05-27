@@ -1,0 +1,20 @@
+[
+    {
+        "title": "lungs",
+        "label": "Lungs",
+        "date": "26 Oct 2021",
+        "value": 75
+    },
+    {
+        "title": "teeth",
+        "label": "Teeth",
+        "date": "26 Oct 2021",
+        "value": 75
+    },
+    {
+        "title": "bone",
+        "label": "Bone",
+        "date": "26 Oct 2021",
+        "value": 75
+    }
+]

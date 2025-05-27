@@ -1,0 +1,87 @@
+.calender{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title h4{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2F2A64;
+}
+
+.title div{
+    display: flex;
+}
+
+.title button{
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+}
+
+.title svg{
+    width: 25px;
+    height: 25px;
+    stroke: #3933A9;
+}
+
+.weeks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #2F2A64;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.appointmentCont{
+    gap: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.calender h2{
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2F2A64;
+}
+
+.calender h3{
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 400;
+    color: #9293AA;
+}
+
+@media (max-width: 911px) {
+    .weeks{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 1024px) {
+    .weeks{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1455px) {
+    .weeks p{
+        font-size: 13px;
+    }   
+}

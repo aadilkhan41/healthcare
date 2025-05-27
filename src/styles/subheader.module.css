@@ -1,0 +1,41 @@
+.subhead{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subhead h1{
+    font-size: 26px;
+    color: #2A3271;
+    margin: 0;
+    font-weight: 700;
+}
+
+.subhead div{
+    display: flex;
+    align-items: center;
+}
+
+.subhead h6{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #3933A9;
+    cursor: pointer;
+}
+
+.subhead button{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+}
+
+.subhead button svg{
+    width: 15px;
+    height: 15px;
+    stroke: #3933A9;
+}

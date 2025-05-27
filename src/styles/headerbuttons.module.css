@@ -1,0 +1,42 @@
+.headerbutton {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.headerbutton svg{
+    width: 25px;
+    height: 25px;
+}
+
+.notification{
+    border: 1px solid #e9ecef;
+    background-color: white;
+}
+
+.notification svg{
+    stroke: #3933A9;
+}
+
+.profile {
+    background-color: #02E2F3;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+}
+
+.add {
+    background-color: #3933A9;
+}
+
+.add svg {
+    stroke: white;
+}

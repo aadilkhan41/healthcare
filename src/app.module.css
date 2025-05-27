@@ -1,0 +1,139 @@
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+}
+
+.dashboard {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.appointments {
+    width: 100%;
+    height: 900px;
+    float: left;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: #F6FAFF;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #DDE2F9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6c757d;
+}
+
+.dashboard header {
+    gap: 15px;
+    display: flex;
+    padding: 20px 0;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 5;
+    position: sticky;
+    background-color: white;
+}
+
+.appointments header {
+    gap: 15px;
+    display: flex;
+    padding: 20px;
+    top: 0px;
+    z-index: 5;
+    position: sticky;
+    justify-content: flex-end;
+    background-color: #F6FAFF;
+}
+
+.dashboard header input {
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    outline: none;
+    padding-left: 60px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+    box-sizing: border-box;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-image: url("./assets/search.svg");
+    background-position: 25px center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.bodyantonomy {
+    display: flex;
+}
+
+@media (max-width: 911px) {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    main{
+        margin-top: 50px;
+        margin-bottom: 60px;
+        flex-direction: column;
+    }
+
+    .dashboard, .appointments{
+        padding: 15px;
+        background-color: white;
+    }
+
+    .bodyantonomy{
+        flex-direction: column;
+    }
+
+    .dashboard header button{
+        display: none;
+    }
+
+    .appointments header button:first-child{
+        display: none;
+    }
+
+    .dashboard header {
+        z-index: 0;
+        position: static;
+        background-color: white;
+    }
+    
+    .appointments header {
+        z-index: 0;
+        position: static;
+        background-color: white;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 1155px) {
+    .appointments{
+        padding: 20px;
+    }
+
+    .bodyantonomy{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1156px) and (max-width: 1455px) {
+    .appointments{
+        padding: 20px;
+    }
+}

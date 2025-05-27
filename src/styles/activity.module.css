@@ -1,0 +1,108 @@
+.activity{
+    display: flex;
+    padding: 20px;
+    margin: 25px 0;
+    flex-direction: column;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #F6FAFF;
+}
+
+.activity .header{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity .header h3{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #24214F;
+}
+
+.activity p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #AFB5BC;
+}
+
+.barchart{
+    display: flex;
+    flex-direction: column;
+}
+
+.bars{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.bars div{
+    width: 5px;
+    gap: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bars div:nth-child(4n+1){
+    height: 100px;
+}
+
+.bars div:nth-child(4n+2){
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.bars div:nth-child(4n+3){
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.bars div:nth-child(4n+4){
+    height: 25px;
+}
+
+.bars span{
+    width: 5px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #DFE2EA;
+}
+
+.bars span.sky{
+    background-color: #11D9E5;
+}
+
+.bars span.blue{
+    background-color: #7382B1;
+}
+
+.barchart ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    padding: 10px 20px 0 20px;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.barchart li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #AFB5BC;
+}
+
+@media (max-width: 1024px) {
+    .bars{
+        padding: 0;
+    }
+}

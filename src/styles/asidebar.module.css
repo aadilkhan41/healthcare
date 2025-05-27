@@ -1,0 +1,90 @@
+.asidebar {
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    padding: 35px 30px;
+    overflow: scroll;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F6FAFF;
+
+    /* For Firefox */
+    scrollbar-width: none;
+
+    /* For WebKit browsers */
+    -ms-overflow-style: none;
+}
+
+.asidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.asidebar img {
+    width: 100%;
+}
+
+.section h2 {
+    color: #adb5bd;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.asidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.asidebar li {
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    align-items: center;
+    font-size: 16px;
+    color: #adb5bd;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.asidebar li:hover{
+    background-color: #e9ecef;
+}
+
+.asidebar span,
+.asidebar svg {
+    width: 20px;
+    height: 20px;
+    fill: #adb5bd;
+}
+
+.asidebar li.active svg {
+    fill: #2A3271;
+}
+
+.asidebar li.active p {
+    color: #2A3271;
+}
+
+.section p {
+    margin: 0;
+}
+
+@media (max-width: 911px) {
+    .asidebar{
+        display: none;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 1455px) {
+    .asidebar{
+        padding: 35px 20px;
+    }
+}

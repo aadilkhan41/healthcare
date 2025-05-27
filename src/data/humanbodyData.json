@@ -1,0 +1,12 @@
+[
+    {
+        "title": "heart",
+        "label": "Healthy Heart",
+        "reverse": false
+    },
+    {
+        "title": "leg",
+        "label": "Healthy Leg",
+        "reverse": true
+    }
+]

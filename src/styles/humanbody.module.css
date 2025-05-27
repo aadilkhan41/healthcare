@@ -1,0 +1,74 @@
+.humanbody{
+    width: 75%;
+    position: relative;
+}
+
+.humanbody div{
+    height: 100%;
+    padding: 20px;
+    margin: 0 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #F6FAFF;
+    position: relative;
+}
+
+.zoom{
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+}
+
+.zoom:hover{
+    background-color: #dee2e6;
+}
+
+.zoom svg{
+    width: 25px;
+    height: 25px;
+    stroke: #9AA0A5;
+}
+
+.humanbodycont{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.humanbodycont img{
+    width: 200px;
+    filter: saturate(200%);
+}
+
+@media (max-width: 911px) {
+    .humanbody{
+        width: 100%;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 1155px) {
+    .humanbody{
+        width: 100%;
+    }
+
+    .humanbodycont img{
+        width: 180px;
+    }
+}
+
+@media (min-width: 1156px) and (max-width: 1455px) {
+    .humanbodycont img{
+        width: 180px;
+    }
+}

@@ -1,0 +1,165 @@
+.parts{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.part{
+    min-width: 150px;
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #F6FAFF;
+}
+
+.part div{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.part div img{
+    width: 40px;
+    height: 40px;
+}
+
+.part div h2{
+    margin: 0;
+    font-weight: 500;
+    color: #24214F;
+    font-size: 20px;
+}
+
+.part p{
+    color: #C7CAD0;
+    font-size: 12px;
+}
+
+.part progress {
+    width: 100%;
+    height: 10px;
+    appearance: none;
+}
+
+.part progress::-webkit-progress-bar {
+    background-color: #DFE5EE;
+    border-radius: 30px;
+}
+
+.part progress::-moz-progress-bar {
+    background-color: #DFE5EE;
+    border-radius: 30px;
+}
+
+.part progress::-webkit-progress-value {
+    border-radius: 30px;
+}
+
+.part progress::-moz-progress-value {
+    border-radius: 30px;
+}
+
+.part progress.lungs::-webkit-progress-value {
+    background-color: #AF4B49;
+}
+
+.part progress.lungs::-moz-progress-value {
+    background-color: #AF4B49;
+}
+
+.part progress.teeth::-webkit-progress-value {
+    background-color: #78D1C1;
+}
+
+.part progress.teeth::-moz-progress-value {
+    background-color: #78D1C1;
+}
+
+.part progress.bone::-webkit-progress-value {
+    background-color: #FF7A54;
+}
+
+.part progress.bone::-moz-progress-value {
+    background-color: #FF7A54;
+}
+
+.detailscont{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+}
+
+.details h6{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #3933A9;
+    cursor: pointer;
+}
+
+.details button{
+    border: none;
+    outline: none;
+    display: flex;
+    margin-top: 2px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+}
+
+.details button svg{
+    width: 15px;
+    height: 15px;
+    stroke: #3933A9;
+}
+
+@media (max-width: 911px) {
+    .parts{
+        margin-top: 20px;
+    }
+
+    .part{
+        margin: 0;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 1155px) {
+    .parts{
+        margin-top: 20px;
+    }
+
+    .part{
+        margin: 0 auto;
+    }
+
+    .part div img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .part div h2{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1156px) and (max-width: 1455px) {
+    .part{
+        margin: 0 auto;
+    }
+
+    .part div img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .part div h2{
+        font-size: 18px;
+    }
+}

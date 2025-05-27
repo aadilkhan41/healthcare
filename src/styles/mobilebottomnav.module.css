@@ -1,0 +1,54 @@
+.nav{
+    height: 66px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: none;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav div{
+    width: 50px;
+    color: #adb5bd;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav div.active svg{
+    fill: #2A3271;
+}
+
+.nav div.active label{
+    color: #2A3271;
+}
+
+.nav i{
+    display: flex;
+    justify-content: center;
+}
+
+.nav svg{
+    width: 24px;
+    height: 24px;
+    fill: #adb5bd;
+}
+
+.nav label{
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 911px){
+    .nav{
+        display: flex;
+    }
+}

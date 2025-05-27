@@ -1,0 +1,34 @@
+.cardsection{
+    display: flex;
+    padding: 25px;
+    color: #2F2A64;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #DDE2F9;
+}
+
+.cardsection.active{
+    color: #DDE3F0;
+    background-color: #3933A9;
+}
+
+.cardsection h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardsection h5 img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.cardsection p{
+    margin: 0;
+    font-size: 14px;
+}

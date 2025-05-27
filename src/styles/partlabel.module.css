@@ -1,0 +1,50 @@
+.partlabel{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    position: absolute;
+}
+
+.heart{
+    top: 22%;
+    left: 48%;
+}
+
+.leg{
+    top: 65%;
+    right: 46%;
+}
+
+.partlabel svg{
+    width: 60px;
+    height: 60px;
+    stroke: #9197C9;
+}
+
+.partlabel span{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.partlabel .label{
+    height: 40px;
+    padding: 0 15px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.heart .label{
+    color: white;
+    background-color: #3933A9;
+}
+
+.leg .label{
+    color: #3933A9;
+    background-color: #00E1F0;
+}
+
+.partlabel img{
+    width: 20px;
+    height: 20px;
+}
