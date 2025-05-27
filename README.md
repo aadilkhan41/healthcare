@@ -21,6 +21,6 @@ A modern, responsive web dashboard for visualizing and managing healthcare-relat
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/healthcare.git
+git clone https://github.com/aadilkhan41/healthcare.git
 cd healthcare
 npm install
